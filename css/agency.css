@@ -696,8 +696,8 @@ section#contact .text-danger {
   color: #e74c3c;
 }
 
-label {
-  color: white !important;
+.hs-form-field > label {
+  color: white;
 }
 
 footer {
