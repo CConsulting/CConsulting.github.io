@@ -654,6 +654,10 @@ aside.clients img {
   color: white;
 }
 
+.hs-forms * {
+  color: white;
+}
+
 section#contact {
   background-color: #222222;
   background-position: center;
