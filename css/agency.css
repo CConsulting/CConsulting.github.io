@@ -630,34 +630,6 @@ aside.clients img {
   margin: 50px auto;
 }
 
-#label-email-b79083a0-3c57-436c-974b-e352476554ae {
-  color: white;
-}
-
-#label-firstname-b79083a0-3c57-436c-974b-e352476554ae {
-  color: white;
-}
-
-#label-lastname-b79083a0-3c57-436c-974b-e352476554ae {
-  color: white;
-}
-
-#label-mobilephone-b79083a0-3c57-436c-974b-e352476554ae {
-  color: white;
-}
-
-#label-industry-b79083a0-3c57-436c-974b-e352476554ae {
-  color: white;
-}
-
-#label-message-b79083a0-3c57-436c-974b-e352476554ae {
-  color: white;
-}
-
-.hs-forms * {
-  color: white;
-}
-
 section#contact {
   background-color: #222222;
   background-position: center;
@@ -722,6 +694,10 @@ section#contact :-ms-input-placeholder {
 
 section#contact .text-danger {
   color: #e74c3c;
+}
+
+label {
+  color: white;
 }
 
 footer {
