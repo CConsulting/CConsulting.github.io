@@ -8,6 +8,10 @@ body {
     @include body-font;
 }
 
+.spacer {
+  height: 25px;
+}
+
 .text-muted {
     color: $gray-light;
 }

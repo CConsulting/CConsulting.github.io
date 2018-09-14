@@ -3,6 +3,10 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.spacer {
+  height: 25px;
+}
+
 .text-muted {
   color: #777777;
 }
