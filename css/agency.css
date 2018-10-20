@@ -279,7 +279,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in-img {
-  height: 39%;
+  width: 75%;
 }
 
 header .intro-text .intro-heading {
@@ -293,8 +293,8 @@ header .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 400px;
+    padding-top: 225px;
+    padding-bottom: 27000px;
   }
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;

@@ -182,7 +182,7 @@ header {
         padding-top: 100px;
         padding-bottom: 50px;
         .intro-lead-in-img {
-            height: 39%
+            width: 75%
         }
         .intro-heading {
             @include heading-font;
@@ -197,8 +197,8 @@ header {
 @media(min-width:768px) {
     header {
         .intro-text {
-            padding-top: 100px;
-            padding-bottom: 400px;
+            padding-top: 225px;
+            padding-bottom: 27000px;
             .intro-lead-in {
                 @include serif-font;
                 font-style: italic;
