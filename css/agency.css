@@ -235,14 +235,12 @@ fieldset[disabled] .btn-xl.focus {
     background-color: transparent;
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
-    -moz-transition: padding 0.3s;
     transition: padding 0.3s;
     border: none;
   }
   .navbar-custom .navbar-brand {
     font-size: 2em;
     -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
   .navbar-custom .navbar-nav > .active > a {
@@ -263,11 +261,10 @@ fieldset[disabled] .btn-xl.focus {
 header {
   background-image: url("../img/pier.jpg");
   background-repeat: no-repeat;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+          box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   background-attachment: scroll;
   background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
@@ -660,7 +657,8 @@ section#contact .form-group textarea.form-control {
 
 section#contact .form-control:focus {
   border-color: #54B2BF;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 section#contact ::-webkit-input-placeholder {
@@ -701,6 +699,10 @@ section#contact .text-danger {
   color: white;
 }
 
+.hbspt-form {
+  padding-left: 30%;
+}
+
 footer {
   padding: 25px 0;
   text-align: center;
@@ -736,7 +738,6 @@ ul.social-buttons li a {
   color: white;
   outline: none;
   -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
 
@@ -845,6 +846,10 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
 ::selection {
   text-shadow: none;
   background: #54B2BF;
+}
+
+img::-moz-selection {
+  background: transparent;
 }
 
 img::selection {
