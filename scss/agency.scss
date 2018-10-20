@@ -181,12 +181,8 @@ header {
     .intro-text {
         padding-top: 100px;
         padding-bottom: 50px;
-        .intro-lead-in {
-            @include serif-font;
-            font-style: italic;
-            font-size: 22px;
-            line-height: 22px;
-            margin-bottom: 25px;
+        .intro-lead-in-img {
+            height: 39%
         }
         .intro-heading {
             @include heading-font;
