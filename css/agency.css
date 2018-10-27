@@ -336,6 +336,10 @@ section h3.section-subheading {
   }
 }
 
+.client-logo {
+  width: 100%;
+}
+
 .service-heading {
   margin: 15px 0;
   text-transform: none;
