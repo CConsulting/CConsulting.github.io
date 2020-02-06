@@ -246,6 +246,10 @@ header .intro-text .intro-heading {
   margin-bottom: 25px;
 }
 
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+
 @media (min-width: 768px) {
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -285,6 +289,12 @@ section h3.section-subheading {
 @media (min-width: 768px) {
   section {
     padding: 50px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  section#contact .hbspt-form {
+    padding-left: 18%;
   }
 }
 
