@@ -74,12 +74,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-xl {
-    @include button-variant(white, $theme-primary, $theme-primary);
+    // @include button-variant(white, $theme-primary, $theme-primary);
     @include heading-font;
     font-weight: 700;
     border-radius: 3px;
     font-size: 18px;
     padding: 20px 40px;
+}
+
+.btn-danger {
+    background-color: #ff7a59;
+    border-color: #ff7a59;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #ff8f73;
+    border-color: #ff8f73;
 }
 
 // Custom Navigation Bar
@@ -177,13 +188,14 @@ header {
     background-attachment: scroll;
     background-position: center center;
     @include background-cover;
-    text-align: center;
     color: white;
     .intro-text {
         padding-top: 100px;
         padding-bottom: 50px;
+        width: 33%;
+        text-align: center;
         .intro-lead-in-img {
-            width: 75%
+            width: 100%
         }
         .intro-heading {
             @include heading-font;
@@ -541,6 +553,10 @@ section#contact {
     background-color: $gray-darker;
     background-position: center;
     background-repeat: no-repeat;
+    .back-to-top {
+        text-align: right;
+        margin-right: 25px;
+    }
     .section-heading {
         color: white;
     }
