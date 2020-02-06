@@ -247,7 +247,7 @@ header .intro-text .intro-heading {
 }
 
 .text-responsive {
-  font-size: calc(100% + 1vw + 1vh);
+  font-size: calc(100%);
 }
 
 @media (min-width: 768px) {
@@ -278,7 +278,6 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-  font-size: 16px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-style: italic;
@@ -295,6 +294,9 @@ section h3.section-subheading {
 @media (max-width: 768px) {
   section#contact .hbspt-form {
     padding-left: 18%;
+  }
+  .text-muted {
+    font-size: calc(100% + 1vw + 1vh);
   }
 }
 
