@@ -216,7 +216,7 @@ fieldset[disabled] .btn-primary.focus {
 }
 
 header {
-  background-image: url("../img/pier.jpg");
+  background-image: url("../img/pier.png");
   background-repeat: no-repeat;
   -webkit-box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
           box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
@@ -302,6 +302,10 @@ section h3.section-subheading {
 
 .client-logo {
   width: 100%;
+}
+
+#client-logos {
+  border-bottom: 1px solid black;
 }
 
 .service-heading {
