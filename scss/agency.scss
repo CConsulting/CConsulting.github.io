@@ -258,6 +258,12 @@ section {
     }
 }
 
+@media(max-width: 991px) {
+    ul {
+      padding-left: 227px;
+    }
+  }
+
 @media(max-width:768px) {
     section#contact {
         .hbspt-form {
@@ -266,6 +272,9 @@ section {
     }
     .text-muted {
         font-size: calc(100% + 1vw + 1vh);
+    }
+    ul {
+        padding-left: 20%;
     }
 }
 
