@@ -308,6 +308,11 @@ section h3.section-subheading {
   border-bottom: 1px solid black;
 }
 
+ul {
+  text-align: center;
+  list-style: inside;
+}
+
 .service-heading {
   margin: 15px 0;
   text-transform: none;
