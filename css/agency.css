@@ -16,7 +16,7 @@ body {
 }
 
 p {
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 1.75;
 }
 
@@ -247,7 +247,7 @@ header .intro-text .intro-heading {
 }
 
 .text-responsive {
-  font-size: calc(100%);
+  font-size: calc(100% + 1vw + 1vh)
 }
 
 @media (min-width: 768px) {
