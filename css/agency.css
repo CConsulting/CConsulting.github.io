@@ -247,8 +247,13 @@ header .intro-text .intro-heading {
 }
 
 .text-responsive {
-  font-size: calc(100% + 1vw + 1vh)
+  font-size: calc(100% + 1vw + 1vh);
 }
+
+.text-responsive h4 {
+  font-size: calc(100% + 1vw + 1vh);
+}
+
 
 @media (min-width: 768px) {
   header .intro-text .intro-lead-in {
@@ -571,7 +576,7 @@ ul {
   .text-responsive {
     font-size: calc(100% + 1vh);
   }
-  .text-responsive h4 {
+  .service-heading {
     font-size: calc(100% + 1vh);
   }
 }
