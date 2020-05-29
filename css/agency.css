@@ -250,11 +250,6 @@ header .intro-text .intro-heading {
   font-size: calc(100% + 1vw + 1vh);
 }
 
-.text-responsive h4 {
-  font-size: calc(100% + 1vw + 1vh);
-}
-
-
 @media (min-width: 768px) {
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
