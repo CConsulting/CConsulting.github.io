@@ -568,6 +568,12 @@ ul {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px;
   }
+  .text-responsive {
+    font-size: calc(100% + 1vh);
+  }
+  .text-responsive h4 {
+    font-size: calc(100% + 1vh);
+  }
 }
 
 @media (min-width: 1200px) {
