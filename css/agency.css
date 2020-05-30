@@ -213,6 +213,15 @@ fieldset[disabled] .btn-primary.focus {
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
   }
+  .service-heading {
+    font-size: calc(100% + 1vh);
+  }
+}
+
+@media (min-width: 500px) {
+  .service-heading {
+    font-size: calc(100% + 1vh);
+  }
 }
 
 header {
