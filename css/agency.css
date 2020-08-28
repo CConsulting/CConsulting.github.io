@@ -630,9 +630,10 @@ aside.clients img {
 }
 
 section#contact {
-  background-color: #222222;
+  background-color: #ffff;
   background-position: center;
   background-repeat: no-repeat;
+  border-top: 1px solid black;
 }
 
 section#contact .back-to-top {
@@ -641,7 +642,7 @@ section#contact .back-to-top {
 }
 
 section#contact .section-heading {
-  color: white;
+  color:#54B2BF;
 }
 
 section#contact .form-group {
